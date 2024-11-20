@@ -1,0 +1,25 @@
+<section class="container mx-auto px-5 py-8">
+  <div class="grid grid-cols-5 gap-2">
+    <div class="col-span-2">
+      <div class="relative min-h-[80vh]">
+        <img src="{{ page.header.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{page.header.image-position}};" alt="{{page.header.image-alt}}">
+      </div>
+    </div>
+    <div class="col-span-3 self-end">
+        <div class="flex flex-col justify-end max-w-md px-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui vel cupiditate velit enim nostrum aut error soluta iure provident voluptate eius doloribus voluptatum voluptatem quod, sunt accusamus itaque dolores?
+          </p>
+        </div>
+        <div  class="flex flex-row gap-2">
+          
+          {% for item in page.header.items %}
+          <div class="relative min-h-40 grow">
+            <img src="{{ item.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{item.image-position}};" alt="{{item.image-alt}}">
+          </div>
+          {% endfor %}
+        
+        </div>
+    </div>
+  </div>
+</section>
+

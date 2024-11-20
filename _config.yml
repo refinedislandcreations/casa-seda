@@ -1,0 +1,50 @@
+_options:
+  content:
+    styles: /editor.css
+    blockquote: true
+    horizontalrule: true
+    format: p h1 h2 h3 h4 h5 h6 img
+    bold: true
+    italic: true
+    numberedlist: true
+    bulletedlist: true
+    code: true
+    table: true
+    right: right
+    center: center
+    left: left
+    embed: true
+    link: true
+    undo: true
+    redo: true
+    underline: true
+    strike: true
+    image: true
+
+  content_html:
+    styles: /editor.css
+    blockquote: true
+    horizontalrule: true
+    format: p h1 h2 h3 h4 h5 h6 img
+    bold: true
+    italic: true
+    numberedlist: true
+    bulletedlist: true
+    code: true
+    table: true
+    right: right
+    center: center
+    left: left
+    embed: true
+    link: true
+    undo: true
+    redo: true
+    underline: true
+    strike: true
+    image: true
+
+url: "https://refinedislandcreations.com" # Your main domain
+baseurl: "/casa-seda"  # Optional, add this if you use a subpath on your main domain
+plugins:
+  - jekyll-sitemap
+  

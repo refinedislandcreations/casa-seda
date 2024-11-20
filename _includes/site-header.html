@@ -1,0 +1,19 @@
+<header class="flex flex-col relative pb-7 sm:pb-14 text-base">
+  <div class="absolute top-0 left-0 w-full text-center sm:text-left sm:flex justify-between items-center py-5 px-5 z-10">
+    <a href="/index.html" class="mb-5 sm:mb-0 font-serif text-2xl basis-full">Casa Seda</a>
+    <nav class="flex justify-center sm:justify-end w-full gap-3 pt-2 sm:pt-0">
+      <a href="/menu.html" class="pr-2 inline-block">Menu</a>
+      <a href="/impressions.html" class="pr-2 inline-block">Impressions</a>
+      <a href="https://calendly.com/refinedislandcreations/consultation-call" class="inline-block">Book Now</a>
+    </nav>
+  </div>
+  <div class="relative min-h-screen">
+    <img src="{{ page.header.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{page.header.image-position}};" alt="{{page.header.image-alt}}">
+
+    <div class="flex flex-col relative min-h-screen justify-center items-center"> 
+      <h1 class="font-serif text-5xl sm:text-8xl">{{ page.header.title }}</h1>
+    </div>
+
+  </div>
+</header>
+

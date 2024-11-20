@@ -1,0 +1,162 @@
+dish:
+ - name: Primero Platos
+   image: /images/dish-1.png
+   image-alt:
+   image-position:
+   description: A selection of bite-sized creations blending Spanish and Asian flavors. From delicate seafood to vibrant vegetable bites, each offers a taste of our culinary fusion, perfect for sharing or savoring on your own.
+   price: $38
+   mealtime: 
+    - lunch
+    - dinner
+   categories:
+    -   
+ - name: Flor de Oro
+   image: /images/dish-2.png
+   image-alt:
+   image-position:
+   description: Flor de Oro is a vegan masterpiece of saffron-infused bites with a coconut-lemongrass foam and colorful edible flowers. Bright and fragrant, it’s a garden of flavors and textures that elevates plant-based dining to an art form.
+   price: $42
+   mealtime:
+    - dinner
+   categories:
+    - vegan
+    - vegetarian
+ - name: El Descubrimiento
+   image: /images/dish-3.png
+   image-alt:
+   image-position:
+   description: El Descubrimiento features a fresh fish dish served under a domed lid, unveiling delicate flavors and a light, aromatic broth. Accompanied by seasonal vegetables, it’s a pescatarian experience that’s as visually stunning as it is delicious.
+   price: $55
+   mealtime:
+    - dinner
+   categories:
+    - pescatarian
+ - name: Huevo del Mar
+   image: /images/dish-4.png
+   image-alt:
+   image-position:
+   description: Huevo del Mar brings together a delicate egg and raw fish in a beautifully balanced dish. The richness of the egg complements the freshness of the fish, creating a harmony of textures and flavors that’s both bold and elegant.
+   price: $48
+   mealtime:
+    - lunch
+    - dinner
+   categories:
+    - pescatarian
+ - name: Seta Dorada
+   image: /images/dish-5.png
+   image-alt:
+   image-position:
+   description: Seta Dorada is a rich and savory vegan dish featuring earthy mushrooms surrounding a creamy, golden center. The velvety, plant-based cream offers a perfect contrast to the mushrooms' natural umami, creating a dish that's both comforting and refined.
+   price: $48
+   mealtime:
+    - lunch
+    - dinner
+   categories:
+    - vegan
+    - vegetarian
+ - name: Tartar de Atún
+   image: /images/dish-6.png
+   image-alt:
+   image-position:
+   description: A vibrant tuna tartare with a tangy citrus dressing, delicate avocado, and a hint of chili for a refreshing yet bold start to your meal.
+   price: $45
+   mealtime:
+    - dinner
+   categories:
+    - pescatarian
+ - name: Piquillos Rellenos
+   image: /images/dish-7.png
+   image-alt:
+   image-position:
+   description: Piquillo peppers stuffed with a savory blend of mushrooms and rice, drizzled with a rich tomato sauce for a flavorful bite that’s both smoky and sweet.
+   price: $38
+   mealtime: 
+    - dinner
+    - lunch
+   categories:
+    - vegan
+    - vegetarian
+ - name: Lomo de Res
+   image: /images/dish-8.png
+   image-alt:
+   image-position:
+   description: A tender cut of beef tenderloin served with roasted root vegetables, finished with a red wine reduction for a dish that’s both indulgent and hearty.
+   price: $65
+   mealtime:
+    - dinner
+   categories:
+    - 
+ - name: Risotto de Mariscos
+   image: /images/dish-9.png
+   image-alt:
+   image-position:
+   description: Creamy seafood risotto, featuring a medley of fresh shellfish and fish, perfectly balanced with saffron and a touch of lemon zest.
+   price: $50
+   mealtime: 
+    - lunch
+    - dinner
+   categories:
+    - pescatarian
+ - name: Tarta de Limón
+   image: /images/dish-10.png
+   image-alt:
+   image-position:
+   description: A zesty lemon tart with a buttery crust, topped with a dollop of whipped cream, and garnished with a sprinkle of lemon zest.
+   price: $18
+   mealtime:
+    - lunch
+    - dinner
+   categories:
+    - dessert
+ - name: Helado de Coco
+   image: /images/dish-11.png
+   image-alt:
+   image-position:
+   description: Creamy coconut ice cream, made with fresh coconut milk, served with toasted coconut flakes for a refreshing and indulgent finish to your meal.
+   price: $12
+   mealtime:
+    - lunch
+    - dinner
+   categories:
+    - vegan
+    - dessert
+ - name: Limonada Fresca
+   image: /images/drinks-1.png
+   image-alt:
+   image-position:
+   description: A refreshing homemade lemonade with a hint of mint, served chilled for a crisp and revitalizing experience.
+   price: $8
+   mealtime:
+    - drinks
+   categories:
+    - nonalcoholic
+ - name: Sangría Roja
+   image: /images/drinks-2.png
+   image-alt:
+   image-position:
+   description: A traditional Spanish red sangria made with a mix of red wine, citrus fruits, and a splash of brandy for a fruity, spiced drink that’s perfect for sharing.
+   price: $12
+   mealtime:
+    - drinks
+   categories:
+    - alcoholic
+ - name: Cóctel de Pepino y Menta
+   image: /images/drinks-3.png
+   image-alt:
+   image-position:
+   description: A refreshing cucumber and mint cocktail, with gin and a dash of lime, creating a cooling drink perfect for warm days.
+   price: $14
+   mealtime:
+    - drinks
+   categories:
+    - alcoholic
+ - name: Margarita de Frambuesa
+   image: /images/drinks-4.png
+   image-alt:
+   image-position:
+   description: A twist on the classic margarita, using fresh raspberries for a sweet, tart, and vibrant flavor, balanced with tequila and lime juice.
+   price: $16
+   mealtime:
+    - drinks
+   categories:
+    - alcoholic

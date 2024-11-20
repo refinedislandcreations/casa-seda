@@ -1,0 +1,12 @@
+<section class="py-7 sm:py-14">
+  <div class="px-7 sm:px-14">
+    <div class=" py-14 relative min-h-[40vh] sm:min-h-[60vh] flex flex-col items-center justify-end">
+      <img src="{{ block.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 h-full w-full" style="object-position: {{block.image-position}};" alt="{{block.image-alt}}">
+      <div class="relative w-full"> 
+        <h4 class=" {% if block.text-color == 'base-color' %} text-white {% endif %} font-serif text-center text-6xl sm:text-9xl">{{ block.title }} <hr class="absolute -left-7 sm:-left-14 top-[50%] -z-10 border-2 border-featured w-screen"> </h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+

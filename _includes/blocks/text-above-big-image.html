@@ -1,0 +1,16 @@
+
+<section class="container mx-auto px-5 py-8">
+  <div class="flex flex-row justify-between gap-5 pb-2">
+    <div class="shrink-0 self-end">
+      <h3 class="font-serif text-4xl">{{block.title}}</h3>
+    </div>
+    <div class="max-w-md">
+      <p> {{block.paragraph}} </p>
+    </div>{{dish}}
+  </div>
+  <div class="relative min-h-[80vh]">
+    <img src="{{ block.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{block.image-position}};" alt="{{block.image-alt}}">
+  </div>
+</section>
+
+

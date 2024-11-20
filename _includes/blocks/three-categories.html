@@ -1,0 +1,18 @@
+
+<section class="container mx-auto px-5 py-7 sm:py-14">
+  <div class="sm:grid sm:grid-cols-3 gap-2 md:gap-5">
+    {% for item in block.menu-categories %}
+    <div>
+      <div class="relative min-h-30 sm:min-h-40 grow">
+        <img src="{{ item.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{item.image-position}};" alt="{{item.image-alt}}">
+      </div>
+      <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl pt-2 sm:pt-5 pb-2">{{ item.title }}</h2>
+      <p class="pb-5 sm:pb-0">{{ item.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="text-center mt-5">
+     <a href="/menu.html" class="px-5 py-2 button">Explore Our Menu</a>
+  </div>
+</section>
+

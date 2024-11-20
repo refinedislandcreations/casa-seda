@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% include head.html %}
+
+    <title> Casa Seda </title>
+
+
+    <style>
+        :root {
+            --base-color: {{site.data.style.base-color}};
+            --featured-color: {{site.data.style.featured-color}};
+        }
+    </style>
+
+</head>
+    
+<body>
+    {% include site-header.html %}
+
+    {% for block in page.blocks %}
+    <!--{{block._id}} -->
+    {% include /blocks/{{block._id}}.html %}
+    {% endfor %}
+
+    {{content}}
+    
+    {% include site-footer.html %}
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

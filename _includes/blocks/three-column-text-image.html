@@ -1,0 +1,20 @@
+<section class="container mx-auto px-5 py-7 sm:py-14">
+  <div class="grid grid-cols-6 sm:grid-cols-12 gap-5">
+    <div class="col-span-6 xl:col-span-5 flex flex-col justify-between">
+        <div>
+          <p class="font-serif text-2xl sm:text-3xl md:text-4xl max-w-md">{{block.left-upper-text}}</p>
+        </div>
+        <div>
+          <p class="max-w-md pt-5 sm:pt-0">{{block.left-lower-text}} </p>
+        </div>
+    </div>
+    <div class="col-span-full sm:col-span-3 xl:col-span-4 relative min-h-40 sm:min-h-50 md:min-h-60">
+        <img src="{{ block.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full sm:border-l sm:border-r border-featured sm:px-5" style="object-position: {{block.image-position}};" alt="{{block.image-alt}}">
+    </div>
+    <div class="col-span-full sm:col-span-3 self-end">
+      <p class="max-w-sm">{{block.right-text}} </p>
+    </div>
+  </div>
+
+</section>
+

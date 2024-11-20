@@ -1,0 +1,27 @@
+<section class="py-7 sm:py-14">
+  <div class="sm:grid sm:grid-cols-12 gap-5">
+    <div class="col-span-4 relative min-h-30 md:min-h-80">
+      <img src="{{ block.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{block.image-position}};" alt="{{block.image-alt}}">
+    </div>
+    <div class="col-span-8 pl-5 pr-5 sm:pl-0 flex flex-col justify-between">
+        <div>
+          <p class="py-5 font-serif text-2xl sm:text-3xl md:text-4xl sm:py-0 sm:mb-5">{{ block.top-paragraph }}</p>
+        </div>
+        <div>
+          <div class="border-b border-featured">
+            <p class="pb-2">{{ block.bottom-title }} </p>
+          </div>
+          <div class="grid grid-cols-2 pt-5 gap-5">
+             <div>
+              <p>{{ block.bottom-paragraph }}</p>
+             </div>
+             <div class="relative min-h-40">
+                <img src="{{ block.image-small }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{block.image-small-position}};" alt="{{block.image-small-alt}}">
+             </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

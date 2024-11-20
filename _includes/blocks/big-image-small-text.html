@@ -1,0 +1,30 @@
+<section class="pb-7 sm:py-14">
+  <div class="grid sm:grid-cols-5">
+    <div class="col-span-3 relative min-h-50 sm:min-h-[60vh] md:min-h-[70vh] row-span-2 my-2">
+      <img src=" {{block.image}}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{block.image-position}};" alt="{{block.image-alt}}">
+      <div class="relative flex flex-col h-full justify-between text-base">
+          <div class="sm:text-center px-5 sm:px-0">
+            <p class="pt-5 font-serif text-2xl sm:text-3xl md:text-4xl"> {{block.centered-text-on-image}}</p>
+          </div>
+          <div class="p-5">
+            <a href="{{block.lower-text-on-image-url}}"> {{block.lower-text-on-image}} </a>
+          </div>
+      </div>
+    </div>
+    <div class="col-span-2 order-first sm:order-1 self-start max-w-md px-5">
+      <div>
+        <p class="font-serif text-2xl sm:text-3xl md:text-4xl py-2 sm:py-0 ">{{block.right-side-top-text}}</p>
+      </div>
+    </div>
+    <div class="col-span-2 self-end order-2 px-5 sm:px-0 pt-2 sm:pt-0 ">
+      <div class="max-w-md sm:px-5">
+        <p class="pb-2"> {{block.right-side-bottom-text-heading}}  </p>
+        <p> {{block.right-side-bottom-text-paragraph}} </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ 
