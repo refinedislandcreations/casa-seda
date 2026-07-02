@@ -59,3 +59,30 @@
 
 
 
+<!-- GEO: Organisation Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title | escape }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | escape }}"
+}
+</script>
+
+<!-- GEO: LocalBusiness / Entity Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "{{ site.title | escape }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | escape }}",
+  "image": "{{ site.url }}/images/index-header-banner.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bali",
+    "addressCountry": "ID"
+  }
+}
+</script>
