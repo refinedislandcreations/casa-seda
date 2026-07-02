@@ -43,8 +43,13 @@ _options:
     strike: true
     image: true
 
-url: "https://refinedislandcreations.com" # Your main domain
-baseurl: "/casa-seda"  # Optional, add this if you use a subpath on your main domain
+# development
+url: "" # Your main domain
+baseurl: ""  # Optional, add this if you use a subpath on your main domain
+
+# production
+# url: "https://refinedislandcreations.com" # Your main domain
+# baseurl: "/casa-seda"  # Optional, add this if you use a subpath on your main domain
 plugins:
   - jekyll-sitemap
   
