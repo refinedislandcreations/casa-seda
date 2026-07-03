@@ -10,6 +10,9 @@
 <title> {{page.seo.title }} </title> 
 <meta name="description" content="{{page.seo.description }}">
 <meta name="keywords" content="{{page.seo.keywords }}">
+<meta name="author" content="{{ site.title }}">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
 {% if page.seo.hide-from-google == true %}
     <meta name="robots" content="nofollow">
@@ -66,7 +69,13 @@
   "@type": "Organization",
   "name": "{{ site.title | escape }}",
   "url": "{{ site.url }}",
-  "description": "{{ site.description | escape }}"
+  "logo": "{{ site.url }}{{ site.logo }}",
+  "description": "{{ site.description | escape }}",
+  "email": "{{ site.email }}",
+  "sameAs": [
+    "https://twitter.com/{{ site.twitter }}",
+    "https://instagram.com/{{ site.instagram }}"
+  ]
 }
 </script>
 
@@ -79,9 +88,15 @@
   "url": "{{ site.url }}",
   "description": "{{ site.description | escape }}",
   "image": "{{ site.url }}/images/index-header-banner.png",
+  "telephone": "+62 812 3456 7890",
+  "email": "{{ site.email }}",
+  "priceRange": "$$$",
+  "servesCuisine": ["Spanish", "Asian Fusion"],
+  "menu": "{{ site.url }}/#menu",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Bali",
+    "streetAddress": "Jl. Raya Ubud",
+    "addressLocality": "Ubud, Bali",
     "addressCountry": "ID"
   }
 }
@@ -103,12 +118,6 @@
     "@type": "CollectionPage",
     "name": "Portfolio - Refined Island Creations",
     "url": "https://refinedislandcreations.com/portfolio.html"
-  },
-  "about": {
-    "@type": "FoodEstablishment",
-    "name": "Casa Seda",
-    "servesCuisine": ["Spanish", "Asian Fusion"],
-    "address": { "@type": "PostalAddress", "addressLocality": "Bali", "addressCountry": "ID" }
   }
 }
 </script>

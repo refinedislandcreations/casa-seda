@@ -8,7 +8,7 @@
     </nav>
   </div>
   <div class="relative min-h-screen">
-    <img src="{{ page.header.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{page.header.image-position}};" alt="{{page.header.image-alt}}">
+    <img src="{{ page.header.image }}" fetchpriority="high" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{page.header.image-position}};" alt="{{page.header.image-alt}}">
 
     <div class="flex flex-col relative min-h-screen justify-center items-center"> 
       <h1 class="font-serif text-5xl sm:text-8xl">{{ page.header.title }}</h1>

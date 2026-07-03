@@ -23,12 +23,14 @@
 <body>
     {% include site-header.html %}
 
-    {% for block in page.blocks %}
-    <!--{{block._id}} -->
-    {% include /blocks/{{block._id}}.html %}
-    {% endfor %}
+    <main>
+        {% for block in page.blocks %}
+        <!--{{block._id}} -->
+        {% include /blocks/{{block._id}}.html %}
+        {% endfor %}
 
-    {{content}}
+        {{content}}
+    </main>
     
     {% include site-footer.html %}
 

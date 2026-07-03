@@ -47,6 +47,13 @@ _options:
 url: "" # Your main domain
 baseurl: ""  # Optional, add this if you use a subpath on your main domain
 
+title: "Casa Seda"
+description: "Discover Casa Seda in Bali, a refined dining retreat blending Spanish warmth with Asian calm. Enjoy exquisite fusion dishes in an ambiance that feels both luxurious and welcoming."
+email: "hello@casa-seda.refinedislandcreations.com"
+twitter: "casasedabali"
+instagram: "casasedabali"
+logo: "/icons/apple-touch-icon.png"
+
 # production
 # url: "https://refinedislandcreations.com" # Your main domain
 # baseurl: "/casa-seda"  # Optional, add this if you use a subpath on your main domain

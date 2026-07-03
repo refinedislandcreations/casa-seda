@@ -9,13 +9,13 @@
     </div>
   </div>
   <div class="relative min-h-40 sm:min-h-[50vh] md:min-h-[60vh] mb-2">
-    <img src="{{ site.data.dishes.dish[0].image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{site.data.dishes.dish[0].image-position}};" alt="{{site.data.dishes.dish[0].image-alt}}">
+    <img src="{{ site.data.dishes.dish[0].image }}" loading="lazy" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{site.data.dishes.dish[0].image-position}};" alt="{{site.data.dishes.dish[0].image-alt}}">
   </div>
 <!----one big three small dishes------>
   <div class="grid sm:grid-cols-5 gap-2">
     <div class="sm:col-span-2 row-span-2 sm:-order-1 h-full">
       <div class="relative min-h-40 sm:min-h-[70vh]">
-        <img src="{{ site.data.dishes.dish[1].image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{site.data.dishes.dish[1].image-position}};" alt="{{site.data.dishes.dish[1].image-alt}}">
+        <img src="{{ site.data.dishes.dish[1].image }}" loading="lazy" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{site.data.dishes.dish[1].image-position}};" alt="{{site.data.dishes.dish[1].image-alt}}">
       </div>
 
     </div>
@@ -31,7 +31,7 @@
           
           {% for item in site.data.dishes.dish limit:3 offset:2 %}
           <div class="relative min-h-30 sm:min-h-40 grow flex items-end">
-            <img src="{{ item.image }}" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{item.image-position}};" alt="{{item.image-alt}}">
+            <img src="{{ item.image }}" loading="lazy" class="absolute object-cover right-0 top-0 bottom-0 left-0 w-full h-full" style="object-position: {{item.image-position}};" alt="{{item.image-alt}}">
           </div>
           {% endfor %}
         

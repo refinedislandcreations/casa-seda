@@ -4,9 +4,9 @@
 
 ## Key Pages
 
-- [Homepage](https://refinedislandcreations.com/casa-seda/) — Welcome to Casa Seda. Experience our space which invites you in with a relaxed elegance that feels both luxurious and down-to-earth.
-- [Menu](https://refinedislandcreations.com/casa-seda/menu/) — View our Lunch, Dinner, and Drinks menus. From expertly prepared seafood to imaginative plant-based dishes.
-- [Impressions](https://refinedislandcreations.com/casa-seda/impressions/) — A visual journey of our culinary creations and the elegant ambiance of Casa Seda.
+- [Homepage](https://casa-seda.refinedislandcreations.com/) — Welcome to Casa Seda. Experience our space which invites you in with a relaxed elegance that feels both luxurious and down-to-earth.
+- [Menu](https://casa-seda.refinedislandcreations.com/menu/) — View our Lunch, Dinner, and Drinks menus. From expertly prepared seafood to imaginative plant-based dishes.
+- [Impressions](https://casa-seda.refinedislandcreations.com/impressions/) — A visual journey of our culinary creations and the elegant ambiance of Casa Seda.
 
 ## Services / Products
 
