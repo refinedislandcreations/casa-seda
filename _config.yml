@@ -55,8 +55,8 @@ instagram: "casasedabali"
 logo: "/icons/apple-touch-icon.png"
 
 # production
-# url: "https://refinedislandcreations.com" # Your main domain
-# baseurl: "/casa-seda"  # Optional, add this if you use a subpath on your main domain
+url: "https://casa-seda.refinedislandcreations.com" # Your main domain
+baseurl: ""  # Optional, add this if you use a subpath on your main domain
 plugins:
   - jekyll-sitemap
   
