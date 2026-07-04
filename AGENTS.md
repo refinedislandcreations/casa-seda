@@ -540,7 +540,7 @@ Add schema block directly to `<head>` section of base layout.
   "@type": "Organization",
   "name": "{{ site.title | escape }}",
   "url": "{{ site.url }}",
-  "logo": "{{ site.url }}/assets/images/logo.png",
+  "logo": "{{ site.url }}/assets/images/logo.webp",
   "description": "{{ site.description | escape }}",
   "email": "{{ site.email }}",
   "sameAs": [
@@ -553,9 +553,9 @@ Add schema block directly to `<head>` section of base layout.
 ```
 
 **Logo Path**: Find the actual logo asset path. Common locations:
-- `assets/images/logo.png`
+- `assets/images/logo.webp`
 - `assets/img/logo.svg`
-- `images/logo.png`
+- `images/logo.webp`
 - Defined as `site.logo` in `_config.yml`
 
 Use whichever exists. If none exists, omit the `logo` field.
